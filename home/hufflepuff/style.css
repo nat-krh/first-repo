@@ -1,0 +1,66 @@
+html {
+    background-image: url(background.jpg);
+}
+
+/* Меню */
+.header {
+    background-color: rgb(218, 165, 32, 0.793);
+    border: solid 3px rgba(0, 0, 0, 0.793);
+}
+
+.header a {
+    color: black;
+}
+
+.button button{
+    background-color: rgb(218, 165, 32);
+    border: solid 3px rgba(0, 0, 0);
+    color: #000000;
+}
+
+.button button .exit {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.hello {
+    color: rgb(0, 0, 0);
+}
+
+/* Приветствие */
+.hello {
+    background-color: rgb(218, 165, 32);
+    border: solid 3px rgba(0, 0, 0);
+}
+
+/* Персоны факультета */
+.house .person {
+    color: rgb(0, 0, 0);
+}
+
+.person .founder {
+    background-color: rgb(218, 165, 32, 0.793);
+    border: solid 3px rgba(0, 0, 0, 0.793);
+}
+
+.person .dean {
+    background-color: rgb(218, 165, 32, 0.793);
+    border: solid 3px rgba(0, 0, 0, 0.793);
+}
+
+.news {
+    background-color: rgb(218, 165, 32, 0.793);
+    border: solid 3px rgba(0, 0, 0, 0.793);
+    color: rgb(0, 0, 0);
+}
+
+.news .newsOne {
+    background-color: rgb(218, 165, 32);
+    border: solid 3px rgba(0, 0, 0, 0.793);
+    color: rgb(0, 0, 0);
+}
+
+.news .newsOne img {
+    border: solid 3px rgba(0, 0, 0, 0.793);
+}

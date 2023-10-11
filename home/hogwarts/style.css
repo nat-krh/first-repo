@@ -1,0 +1,69 @@
+html {
+    background-image: url(background.gif);
+}
+
+/* Меню */
+.header {
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.button button{
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+/* Приветствие */
+.hello {
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.person .founder {
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.person .founder img {
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.person .dean {
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.person .dean img {
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.content .info {
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+    color: white;
+}
+
+.content .info img {
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.news {
+    background-color: rgba(84, 32, 3, 0.79);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.news .newsOne {
+    background-color: rgba(84, 32, 3);
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.news .newsOne img {
+    border: solid 3px rgba(255, 202, 157, 0.79);
+}
+
+.house {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    max-width: 95%;
+    gap: 50px;
+}

@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* Меню */
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+    width: 75%;
+    max-width: 1200px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.button button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.button button .exit {
+    text-decoration: none;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/* Основной контент */
+.house {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    max-width: 95%;
+    gap: 50px;
+}
+
+/* Приветствие */
+.hello {
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello h1 {
+    text-align: center;
+}
+
+.hello img {
+    width: 100%;
+}
+
+.hello p {
+    max-width: 600px;
+    padding: 5px;
+}
+
+/* Персоны факультета */
+.person {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.person .founder {
+    display: grid;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.person .founder h2 {
+    text-align: center;
+}
+
+.person .founder img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.person .dean {
+    display: grid;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.person .dean h2 {
+    text-align: center;
+}
+
+.person .dean img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.content .info {
+    display: grid;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.content .info h2 {
+    text-align: center;
+}
+
+.content .info img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.news {
+    border-radius: 5px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news .newsOne {
+    border-radius: 5px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.news .newsOne h2 {
+    grid-column: 1/3;
+    text-align: center;
+}
+.news .newsOne img {
+    width: 100%;
+    border-radius: 2px;
+    grid-row: 2/3;
+}
+
+
+
+
+
+
+/* Нижняя панель */
+footer {
+    background-color: rgba(0, 0, 0, 0.518);
+    max-width: 1200px;
+    padding: 0 0 10px 0;
+    margin: 15px auto;
+}
+
+footer p {
+    padding: 0 0 0 10px;
+}

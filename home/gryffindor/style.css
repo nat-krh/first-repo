@@ -1,0 +1,52 @@
+html {
+    background-image: url(background.jpg);
+}
+
+/* Меню */
+.header {
+    background-color: rgba(129, 14, 14, 0.793);
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.button button{
+    background-color: rgba(129, 14, 14, 0.793);
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+/* Приветствие */
+.hello {
+    background-color: rgba(129, 14, 14);
+    border: solid 3px goldenrod;
+}
+
+.person .founder {
+    background-color: rgba(129, 14, 14, 0.793);
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.person .founder img {
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.person .dean {
+    background-color: rgba(129, 14, 14, 0.793);
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.person .dean img {
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.news {
+    background-color: rgba(129, 14, 14, 0.793);
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.news .newsOne {
+    background-color: rgba(129, 14, 14);
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
+
+.news .newsOne img {
+    border: solid 3px rgb(255, 215, 0, 0.793);
+}
